@@ -90,6 +90,7 @@
     .bottomitem .titlename {
         font-size: 2rem;
     }
+    .projectwrap .light {display: none;}
 }
 
 @media screen and (max-width : 1449px) {
