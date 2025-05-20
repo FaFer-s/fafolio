@@ -82,6 +82,9 @@
     .contactwrap .contact p{
         font-size: 1.2rem !important;
     }
+    .trdbottom .light {
+        animation: none !important;
+    }
 }
 @media screen and (max-width : 1065px) {
     .contactwrap {

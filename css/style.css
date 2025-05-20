@@ -755,7 +755,12 @@ body {
     display: block;
     color: #fff;
 }
-
+.light {
+    pointer-events: none !important; 
+}
+.projectwrap {
+    overflow: hidden !important;
+}
 @keyframes lrcycle {
     0% {
         left: -500px;
