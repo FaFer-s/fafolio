@@ -632,9 +632,9 @@ body {
 }
 
 .projectwrap .light {
-    left: 1300px;
-    top: 1500px;
-    position: fixed;
+    left:60%;
+    top: -30%;
+    position: absolute;
     z-index: 0;
     width: 1000px;
     height: 1000px;
@@ -757,9 +757,6 @@ body {
 }
 .light {
     pointer-events: none !important; 
-}
-.projectwrap {
-    overflow: hidden !important;
 }
 @keyframes lrcycle {
     0% {

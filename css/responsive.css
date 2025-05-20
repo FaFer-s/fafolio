@@ -93,7 +93,6 @@
     .bottomitem .titlename {
         font-size: 2rem;
     }
-    .projectwrap .light {display: none;}
 }
 
 @media screen and (max-width : 1449px) {
@@ -263,10 +262,6 @@
 
     .rslide {
         height: 411px;
-    }
-
-    .bottomitem .light {
-        display: none !important;
     }
 
     .contactwrap .contact {
