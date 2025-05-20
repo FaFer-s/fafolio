@@ -183,8 +183,8 @@ header nav ul .menuline {
 }
 
 .introwrap .profile {
-    background: url(../image/profile2.jpg)no-repeat center;
-    background-position: right 40% bottom 95%;
+    background: url(../image/profileimg.jpg)no-repeat ;
+    background-position: right 20% bottom 50%;
     background-size: 150%;
     border: 40px solid #5DD610;
     transform: rotate(-4deg);
