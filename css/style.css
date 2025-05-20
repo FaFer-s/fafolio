@@ -183,7 +183,7 @@ header nav ul .menuline {
 }
 
 .introwrap .profile {
-    background: url(../image/profileimg.jpg)no-repeat ;
+    background: url(../image/profileimg.jpg)no-repeat;
     background-position: right 20% bottom 50%;
     background-size: 150%;
     border: 40px solid #5DD610;
@@ -296,6 +296,7 @@ header nav ul .menuline {
 /*  */
 .projectwrap {
     padding-top: 70px;
+
 }
 
 .projectwrap .titleitem {
@@ -468,10 +469,12 @@ body {
     position: relative;
     z-index: 999 !important;
 }
+
 .big video {
     width: 100%;
     height: 100%;
 }
+
 /* swiper */
 /*  */
 /*  */
@@ -583,9 +586,11 @@ body {
 .bottomitem .titlename {
     flex: 1;
 }
+
 .bottomitem .titlename span {
     color: #5dd610;
 }
+
 .bottomitem button {
     font-family: 'godoB';
     width: 120px;
@@ -605,12 +610,14 @@ body {
 .bottomitem button span {
     color: #fff;
 }
+
 .bottomitem button a {
-        display: block;
-        width: 100%;
-        height: 100%;
-        line-height: 50px;
-    }
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+}
+
 .bottomitem button:active {
     position: relative;
     top: 4px;
@@ -619,15 +626,21 @@ body {
     z-index: 99;
 }
 
-.bottomitem .light {
-    left: 1000px;
-    top: -600px;
-    position: absolute;
-    z-index: 9;
-    width: 1200px;
-    height: 1200px;
+.projectwrap {
+    overflow: visible;
+    position: relative;
+}
+
+.projectwrap .light {
+    left: 1300px;
+    top: 1500px;
+    position: fixed;
+    z-index: 0;
+    width: 1000px;
+    height: 1000px;
     border-radius: 999px;
     background: radial-gradient(circle at center, #5cd61046, rgba(255, 255, 0, 0) 70%);
+    /* animation: rlcycle 20s infinite; */
 }
 
 /*  */
@@ -756,7 +769,19 @@ body {
         left: -500px;
     }
 }
+@keyframes rlcycle {
+    0% {
+        left: 1300px;
+    }
 
+    50% {
+        left: 400px;
+    }
+
+    100% {
+        left: 1300px;
+    }
+}
 .rslide.pause-mode iframe {
     opacity: 0;
     pointer-events: none;
