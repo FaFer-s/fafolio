@@ -93,6 +93,9 @@
 }
 
 @media screen and (max-width : 1449px) {
+    nav {
+        background-color: #000000a4;
+    }
     .introitem1 {
         flex-direction: column;
         gap: 10px;
